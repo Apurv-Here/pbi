@@ -1,67 +1,42 @@
-"""
-
 _____________________________________________________________________________
 
 02
 _____________________________________________________________________________
-
-
 
 Tricky questions.
 
 
 1. How do you use the Sync Slicer feature when working with multiple pages in Power BI?
 Ans.
-The Sync Slicer feature in Power BI allows you to apply a slicer across multiple pages in a 
-report for consistent filtering. To use it:
-
+The Sync Slicer feature in Power BI allows you to apply a slicer across multiple pages in a report for consistent filtering. To use it:
 Select the slicer on one of your report pages.
 Go to the View tab and enable Sync Slicers.
 The Sync Slicers pane will open, showing all pages in the report.
-Choose the pages where you want the slicer to apply by checking Sync (to keep slicer selections consistent) 
-and Visible (to display the slicer on each page).
-This ensures the same filter values are applied across selected pages, 
-improving report consistency and user experience.
-
-
-
+Choose the pages where you want the slicer to apply by checking Sync (to keep slicer selections consistent) and Visible (to display the slicer on each page).
+This ensures the same filter values are applied across selected pages, improving report consistency and user experience.
 
 2. Can you explain the Drill Through concept in Power BI?
 Ans.
-Drill Through in Power BI allows users to navigate from a summary view 
-to a more detailed report page focused on specific data points.
+Drill Through in Power BI allows users to navigate from a summary view to a more detailed report page focused on specific data points.
 
 Here’s how it works:
 
-Set up a Drill Through page by creating a target page and adding a Drill Through field 
-(e.g., Customer Name, Product).
-Users can right-click on a data point in a visual on any page (like a customer in a sales report) 
-and select "Drill Through."
+Set up a Drill Through page by creating a target page and adding a Drill Through field (e.g., Customer Name, Product).
+Users can right-click on a data point in a visual on any page (like a customer in a sales report) and select "Drill Through."
 Power BI will navigate to the target page and filter it to show only data for the selected item.
-This feature helps in exploring data in depth without cluttering the main report page, 
-making it easy to analyze related details on demand.
-
-
+This feature helps in exploring data in depth without cluttering the main report page, making it easy to analyze related details on demand.
 
 3. How do you implement data lineage in Power BI?
 Ans.
-To implement Data Lineage in Power BI, follow these steps to track data sources 
-and transformations throughout the reporting process:
+To implement Data Lineage in Power BI, follow these steps to track data sources and transformations throughout the reporting process:
 
-Use Power BI’s Lineage View: In the Power BI Service (workspace), 
-navigate to the Lineage View. This visualizes connections between dataflows, datasets, 
-reports, and dashboards, showing data movement from sources to end visualizations.
+Use Power BI’s Lineage View: In the Power BI Service (workspace), navigate to the Lineage View. This visualizes connections between dataflows, datasets, reports, and dashboards, showing data movement from sources to end visualizations.
 
-Document Data Transformations in Power Query: In Power Query Editor, 
-document each transformation step in the Applied Steps pane. 
-This provides transparency about data manipulations, making it easier to trace how data is processed.
+Document Data Transformations in Power Query: In Power Query Editor, document each transformation step in the Applied Steps pane. This provides transparency about data manipulations, making it easier to trace how data is processed.
 
-Add Descriptions: For clarity, add descriptions to datasets, tables, 
-and columns directly in Power BI. Right-click on objects in Model View and 
-choose "Properties" to add details.
+Add Descriptions: For clarity, add descriptions to datasets, tables, and columns directly in Power BI. Right-click on objects in Model View and choose "Properties" to add details.
 
-External Tools: Use tools like Azure Purview for more comprehensive 
-data lineage across platforms, especially for enterprise solutions.
+External Tools: Use tools like Azure Purview for more comprehensive data lineage across platforms, especially for enterprise solutions.
 
 These practices provide end-to-end visibility of data sources, transformations, and usage across Power BI reports.
 
@@ -2175,13 +2150,7 @@ Sync slicers in Power BI enhance interactivity and user experience by allowing c
 
 
 
- 
-
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-
+---------------------------------------------------------------------------------------------------------------------------
 
 Microsoft Fabric.
 
@@ -2205,38 +2174,3 @@ Microsoft Fabric.
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
